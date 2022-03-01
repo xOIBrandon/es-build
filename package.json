@@ -4,7 +4,7 @@
   "description": "es build test repo",
   "main": "build/index.js",
   "scripts": {
-    "build": "esbuild src/index.js --bundle --outfile=build/index.js"
+    "build": "esbuild src/index.js --bundle --outfile=build/index.js --target=es2017 --format=esm --tree-shaking=false"
   },
   "author": "Branson",
   "license": "ISC",
