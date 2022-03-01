@@ -4,7 +4,7 @@
   "description": "es build test repo",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "esbuild src/index.js --bundle --outfile=build/index.js"
   },
   "author": "Branson",
   "license": "ISC",
